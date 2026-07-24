@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="only light">
+  <title>Trabajar en S&amp;S — S&amp;S Abogados</title>
+  <meta name="description" content="Si estás interesado en formar parte del equipo de S&S Abogados, enviá tu CV." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════ -->
+<nav class="nav" id="navbar">
+  <a class="nav-logo" href="index.html">
+    <img src="logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
+    <img src="logo.png" class="logo-dark" alt="S&amp;S Abogados" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+    <li><a href="equipo.html">Equipo</a></li>
+    <li><a href="areas-de-practica.html">Áreas de Práctica</a></li>
+    <li><a href="oficinas.html">Oficinas</a></li>
+    <li><a href="trabajar-en-sys.html" class="active">Trabajar en S&amp;S</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switch">
+      <a href="trabajar-en-sys.html" class="active">ES</a>
+      <span>|</span>
+      <a href="en/work-at-sys.html">EN</a>
+    </div>
+    <a href="contacto.html" class="nav-cta">Contacto</a>
+  </div>
+</nav>
+<button class="hamburger" onclick="toggleMenu()" aria-label="Menú">
+  <div class="hamburger-inner">
+    <span></span><span></span><span></span>
+  </div>
+</button>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <img src="logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
+  <div class="mnav-divider"></div>
+  <a href="quienes-somos.html" onclick="toggleMenu()">Quiénes Somos</a>
+  <a href="equipo.html" onclick="toggleMenu()">Equipo</a>
+  <a href="areas-de-practica.html" onclick="toggleMenu()">Áreas de Práctica</a>
+  <a href="oficinas.html" onclick="toggleMenu()">Oficinas</a>
+  <a href="trabajar-en-sys.html" onclick="toggleMenu()">Trabajar en S&amp;S</a>
+  <div class="mnav-lang">
+    <a href="trabajar-en-sys.html" class="active">ESPAÑOL</a><span>|</span><a href="en/work-at-sys.html">ENGLISH</a>
+  </div>
+  <a href="contacto.html" class="btn-solid">Contacto</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-tint"></div>
+  <p class="eyebrow reveal">Trabajar en S&amp;S</p>
+  <h1 class="reveal">Sumate a nuestro equipo</h1>
+  <p class="page-hero-sub reveal">Si estás interesado en formar parte de nuestro equipo, por favor enviá tu CV.</p>
+</section>
+
+<!-- ═══ INTRO ═══════════════════════════════════════════════ -->
+<section class="page-text">
+  <div class="page-text-inner reveal">
+    <p class="lead">Contamos con una estructura interna ideada para acompañar e incentivar el crecimiento profesional de nuestros letrados y su evolución en la firma, hasta alcanzar las más altas posiciones dentro de la misma.</p>
+  </div>
+</section>
+
+<!-- ═══ FORMULARIO ══════════════════════════════════════════ -->
+<section class="lead-form-section">
+  <div class="lead-form-inner">
+    <form class="lead-form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="w-nombre">Nombre y apellido*</label>
+        <input type="text" id="w-nombre" name="nombre" required />
+      </div>
+      <div class="form-group">
+        <label for="w-email">E-mail*</label>
+        <input type="email" id="w-email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="w-cv">Adjuntá tu CV (Word o PDF)*</label>
+        <input type="file" id="w-cv" name="cv" accept=".doc,.docx,.pdf" required />
+        <span class="form-hint">Formatos permitidos: DOC, DOCX y PDF.</span>
+      </div>
+      <div class="form-group">
+        <label for="w-comentarios">Comentarios*</label>
+        <textarea id="w-comentarios" name="comentarios" required></textarea>
+      </div>
+      <p class="form-required">* Campos obligatorios</p>
+      <button type="submit" class="btn-solid">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="logo.png" alt="S&amp;S Abogados" />
+      <p class="footer-tagline">Servicio jurídico integral, con visión de negocios.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegación</h5>
+      <a href="quienes-somos.html">Quiénes Somos</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="areas-de-practica.html">Áreas de Práctica</a>
+      <a href="oficinas.html">Oficinas</a>
+      <a href="trabajar-en-sys.html">Trabajar en S&amp;S</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contacto</h5>
+      <a href="tel:+541152783435">Tel: 5278-3435</a>
+      <a href="contacto.html">Formulario de contacto</a>
+      <p>Av. Alicia Moreau de Justo 1150, Piso 3,<br>Oficina A306, CP 1107, CABA</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados.</span>
+    <span class="footer-credit">Desarrollado por <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="only light">
+  <title>Team — S&amp;S Abogados</title>
+  <meta name="description" content="Meet the partner and five associates of S&S Abogados, specialized in different areas of law." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/png" href="../favicon.png" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════ -->
+<nav class="nav" id="navbar">
+  <a class="nav-logo" href="index.html">
+    <img src="../logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
+    <img src="../logo.png" class="logo-dark" alt="S&amp;S Abogados" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="about-us.html">About Us</a></li>
+    <li><a href="team.html" class="active">Team</a></li>
+    <li><a href="practice-areas.html">Practice Areas</a></li>
+    <li><a href="office.html">Office</a></li>
+    <li><a href="work-at-sys.html">Work at S&amp;S</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switch">
+      <a href="../equipo.html">ES</a>
+      <span>|</span>
+      <a href="team.html" class="active">EN</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Contact</a>
+  </div>
+</nav>
+<button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+  <div class="hamburger-inner">
+    <span></span><span></span><span></span>
+  </div>
+</button>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <img src="../logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
+  <div class="mnav-divider"></div>
+  <a href="about-us.html" onclick="toggleMenu()">About Us</a>
+  <a href="team.html" onclick="toggleMenu()">Team</a>
+  <a href="practice-areas.html" onclick="toggleMenu()">Practice Areas</a>
+  <a href="office.html" onclick="toggleMenu()">Office</a>
+  <a href="work-at-sys.html" onclick="toggleMenu()">Work at S&amp;S</a>
+  <div class="mnav-lang">
+    <a href="../equipo.html">ESPAÑOL</a><span>|</span><a href="team.html" class="active">ENGLISH</a>
+  </div>
+  <a href="contact.html" class="btn-solid">Contact</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-tint"></div>
+  <p class="eyebrow reveal">Team</p>
+  <h1 class="reveal">One partner and five associates, specialized in different areas of law</h1>
+  <p class="page-hero-sub reveal">Our firm is organized into teams led by the partner, with an internal structure designed for the professional growth of each lawyer.</p>
+</section>
+
+<!-- ═══ PROFILES ════════════════════════════════════════════ -->
+<section class="team-profiles">
+
+  <div class="team-profile" id="seoane">
+    <div class="profile-photo reveal-left">
+      <img src="../sebastian-seoane.png" alt="Sebastian Seoane" />
+    </div>
+    <div class="profile-info reveal-right">
+      <span class="profile-tag">Partner</span>
+      <h2>Sebastian Seoane</h2>
+      <p class="profile-meta">Born in Buenos Aires, Argentina, on February 14, 1988.</p>
+      <div class="profile-block">
+        <h5>Training</h5>
+        <p>Graduated as Lawyer in the University of Business and Social Sciences.<br>Diploma in Administrative Contracts from Universidad Austral.<br>Master's Degree in Criminal Law from Universidad de San Andrés.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Associations to which he belongs</h5>
+        <p>Bar of the City of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Languages</h5>
+        <p>Spanish, English</p>
+      </div>
+      <div class="profile-block">
+        <h5>Practice Areas</h5>
+        <div class="profile-areas">
+          <span>Insurance and Accidents</span>
+          <span>Criminal Law</span>
+          <span>Business Criminal Law and Compliance</span>
+        </div>
+      </div>
+      <a href="mailto:sseoane@esysabogados.com.ar" class="link-arrow">sseoane@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile reverse" id="salomone">
+    <div class="profile-photo reveal-right">
+      <img src="../facundo-salomone.png" alt="Facundo Salomone" />
+    </div>
+    <div class="profile-info reveal-left">
+      <span class="profile-tag">Associate</span>
+      <h2>Facundo Salomone</h2>
+      <p class="profile-meta">Born in Buenos Aires, Argentina, on March 4, 1987.</p>
+      <div class="profile-block">
+        <h5>Training</h5>
+        <p>Graduated as a lawyer at the University of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Associations to which he belongs</h5>
+        <p>Bar of the City of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Languages</h5>
+        <p>Spanish, English</p>
+      </div>
+      <div class="profile-block">
+        <h5>Practice Areas</h5>
+        <div class="profile-areas">
+          <span>Insurance</span>
+        </div>
+      </div>
+      <a href="mailto:fsalomone@esysabogados.com.ar" class="link-arrow">fsalomone@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile" id="barrio">
+    <div class="profile-photo reveal-left">
+      <img src="../karina-barrio.png" alt="Karina Barrio" />
+    </div>
+    <div class="profile-info reveal-right">
+      <span class="profile-tag">Associate</span>
+      <h2>Karina Barrio</h2>
+      <div class="profile-block">
+        <h5>Training</h5>
+        <p>Graduated as a lawyer in the University of La Plata.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Associations to which she belongs</h5>
+        <p>Bar of the City of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Languages</h5>
+        <p>Spanish, English</p>
+      </div>
+      <div class="profile-block">
+        <h5>Practice Areas</h5>
+        <div class="profile-areas">
+          <span>Family Law and Succession</span>
+        </div>
+      </div>
+      <a href="mailto:kbarrio@esysabogados.com.ar" class="link-arrow">kbarrio@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile reverse" id="cunsolo">
+    <div class="profile-photo reveal-right">
+      <img src="../agustin-cunsolo.png" alt="Agustin Cunsolo" />
+    </div>
+    <div class="profile-info reveal-left">
+      <span class="profile-tag">Associate</span>
+      <h2>Agustin Cunsolo</h2>
+      <p class="profile-meta">Born in Buenos Aires, Argentina, on March 31, 1983.</p>
+      <div class="profile-block">
+        <h5>Training</h5>
+        <p>Graduated as a lawyer at the University of Buenos Aires.<br>Master's Degree in Administrative Law from the University of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Associations to which he belongs</h5>
+        <p>Bar of the City of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Languages</h5>
+        <p>Spanish, English</p>
+      </div>
+      <div class="profile-block">
+        <h5>Practice Areas</h5>
+        <div class="profile-areas">
+          <span>Commercial Law and Business Consulting</span>
+        </div>
+      </div>
+      <a href="mailto:fcunsolo@esysabogados.com.ar" class="link-arrow">fcunsolo@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile" id="novoa">
+    <div class="profile-photo reveal-left">
+      <img src="../santiago-novoa.png" alt="Santiago Novoa" />
+    </div>
+    <div class="profile-info reveal-right">
+      <span class="profile-tag">Associate</span>
+      <h2>Santiago Novoa</h2>
+      <p class="profile-meta">Born in Buenos Aires, Argentina, on July 17, 1987.</p>
+      <div class="profile-block">
+        <h5>Training</h5>
+        <p>Graduated as a lawyer in the University of Business and Social Sciences.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Associations to which he belongs</h5>
+        <p>Bar of the City of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Languages</h5>
+        <p>Spanish, English</p>
+      </div>
+      <div class="profile-block">
+        <h5>Practice Areas</h5>
+        <div class="profile-areas">
+          <span>Insurance</span>
+          <span>Commercial Law and Business Advice</span>
+        </div>
+      </div>
+      <a href="mailto:snovoa@esysabogados.com.ar" class="link-arrow">snovoa@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile reverse" id="capello">
+    <div class="profile-photo reveal-right">
+      <img src="../ignacio-capello.png" alt="Ignacio Capello" />
+    </div>
+    <div class="profile-info reveal-left">
+      <span class="profile-tag">Associate</span>
+      <h2>Ignacio Capello</h2>
+      <div class="profile-block">
+        <h5>Training</h5>
+        <p>Graduated from the University of Morón.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Associations to which he belongs</h5>
+        <p>Bar of the City of Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Languages</h5>
+        <p>Spanish, English</p>
+      </div>
+      <div class="profile-block">
+        <h5>Practice Areas</h5>
+        <div class="profile-areas">
+          <span>Insurance and Accidents</span>
+        </div>
+      </div>
+      <a href="mailto:icapello@esysabogados.com.ar" class="link-arrow">icapello@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══ CTA ═════════════════════════════════════════════════ -->
+<section class="cta-band">
+  <div class="cta-bg"></div>
+  <div class="cta-tint"></div>
+  <h2 class="reveal">Want to join the team?</h2>
+  <p class="reveal">Check out open positions at S&amp;S Abogados.</p>
+  <div class="btn-group reveal">
+    <a href="work-at-sys.html" class="btn-solid-white">Work at S&amp;S</a>
+    <a href="contact.html" class="btn-ghost-white">Contact Us</a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="../logo.png" alt="S&amp;S Abogados" />
+      <p class="footer-tagline">Comprehensive legal service, with business vision.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigation</h5>
+      <a href="about-us.html">About Us</a>
+      <a href="team.html">Team</a>
+      <a href="practice-areas.html">Practice Areas</a>
+      <a href="office.html">Office</a>
+      <a href="work-at-sys.html">Work at S&amp;S</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="tel:+541152783435">Tel: 5278 3435</a>
+      <a href="contact.html">Contact form</a>
+      <p>Alicia Moreau de Justo 1150, 3rd Floor,<br>Office A306, CP 1107, Buenos Aires</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 S&amp;S Abogados. All rights reserved.</span>
+    <span class="footer-credit">Developed by <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
+  </div>
+</footer>
+
+<script src="../main.js"></script>
+</body>
+</html>

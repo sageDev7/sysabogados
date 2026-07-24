@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="only light">
+  <title>Contact — S&amp;S Abogados</title>
+  <meta name="description" content="Get in touch with S&S Abogados. We'll get back to you shortly." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/png" href="../favicon.png" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════ -->
+<nav class="nav" id="navbar">
+  <a class="nav-logo" href="index.html">
+    <img src="../logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
+    <img src="../logo.png" class="logo-dark" alt="S&amp;S Abogados" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="about-us.html">About Us</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="practice-areas.html">Practice Areas</a></li>
+    <li><a href="office.html">Office</a></li>
+    <li><a href="work-at-sys.html">Work at S&amp;S</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switch">
+      <a href="../contacto.html">ES</a>
+      <span>|</span>
+      <a href="contact.html" class="active">EN</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Contact</a>
+  </div>
+</nav>
+<button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+  <div class="hamburger-inner">
+    <span></span><span></span><span></span>
+  </div>
+</button>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <img src="../logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
+  <div class="mnav-divider"></div>
+  <a href="about-us.html" onclick="toggleMenu()">About Us</a>
+  <a href="team.html" onclick="toggleMenu()">Team</a>
+  <a href="practice-areas.html" onclick="toggleMenu()">Practice Areas</a>
+  <a href="office.html" onclick="toggleMenu()">Office</a>
+  <a href="work-at-sys.html" onclick="toggleMenu()">Work at S&amp;S</a>
+  <div class="mnav-lang">
+    <a href="../contacto.html">ESPAÑOL</a><span>|</span><a href="contact.html" class="active">ENGLISH</a>
+  </div>
+  <a href="contact.html" class="btn-solid">Contact</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-tint"></div>
+  <p class="eyebrow reveal">Contact</p>
+  <h1 class="reveal">Get in Touch</h1>
+  <p class="page-hero-sub reveal">Fill out the form and we'll get back to you shortly.</p>
+</section>
+
+<!-- ═══ CONTACT DETAILS ═════════════════════════════════════ -->
+<section class="office-info">
+  <div class="office-info-inner reveal">
+    <div class="office-info-block">
+      <h5>Phone</h5>
+      <p><a href="tel:+541152783435">5278 3435</a></p>
+    </div>
+    <div class="office-info-block">
+      <h5>Fax</h5>
+      <p>4032 0171</p>
+    </div>
+    <div class="office-info-block">
+      <h5>Office</h5>
+      <p><a href="office.html">Alicia Moreau de Justo 1150, Buenos Aires</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FORM ════════════════════════════════════════════════ -->
+<section class="lead-form-section">
+  <div class="lead-form-inner">
+    <form class="lead-form" action="#" method="POST">
+      <div class="form-group">
+        <label for="c-nombre">Name and lastname*</label>
+        <input type="text" id="c-nombre" name="nombre" required />
+      </div>
+      <div class="form-group">
+        <label for="c-email">E-mail*</label>
+        <input type="email" id="c-email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="c-telefono">Phone*</label>
+        <input type="tel" id="c-telefono" name="telefono" required />
+      </div>
+      <div class="form-group">
+        <label for="c-comentarios">Comments*</label>
+        <textarea id="c-comentarios" name="comentarios" required></textarea>
+      </div>
+      <p class="form-required">* Required fields</p>
+      <button type="submit" class="btn-solid">Send</button>
+    </form>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="../logo.png" alt="S&amp;S Abogados" />
+      <p class="footer-tagline">Comprehensive legal service, with business vision.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigation</h5>
+      <a href="about-us.html">About Us</a>
+      <a href="team.html">Team</a>
+      <a href="practice-areas.html">Practice Areas</a>
+      <a href="office.html">Office</a>
+      <a href="work-at-sys.html">Work at S&amp;S</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="tel:+541152783435">Tel: 5278 3435</a>
+      <a href="contact.html">Contact form</a>
+      <p>Alicia Moreau de Justo 1150, 3rd Floor,<br>Office A306, CP 1107, Buenos Aires</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 S&amp;S Abogados. All rights reserved.</span>
+    <span class="footer-credit">Developed by <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
+  </div>
+</footer>
+
+<script src="../main.js"></script>
+</body>
+</html>

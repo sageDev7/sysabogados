@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="only light">
+  <title>Contacto — S&amp;S Abogados</title>
+  <meta name="description" content="Contactate con S&S Abogados. Te respondemos a la brevedad." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════ -->
+<nav class="nav" id="navbar">
+  <a class="nav-logo" href="index.html">
+    <img src="logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
+    <img src="logo.png" class="logo-dark" alt="S&amp;S Abogados" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+    <li><a href="equipo.html">Equipo</a></li>
+    <li><a href="areas-de-practica.html">Áreas de Práctica</a></li>
+    <li><a href="oficinas.html">Oficinas</a></li>
+    <li><a href="trabajar-en-sys.html">Trabajar en S&amp;S</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switch">
+      <a href="contacto.html" class="active">ES</a>
+      <span>|</span>
+      <a href="en/contact.html">EN</a>
+    </div>
+    <a href="contacto.html" class="nav-cta">Contacto</a>
+  </div>
+</nav>
+<button class="hamburger" onclick="toggleMenu()" aria-label="Menú">
+  <div class="hamburger-inner">
+    <span></span><span></span><span></span>
+  </div>
+</button>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <img src="logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
+  <div class="mnav-divider"></div>
+  <a href="quienes-somos.html" onclick="toggleMenu()">Quiénes Somos</a>
+  <a href="equipo.html" onclick="toggleMenu()">Equipo</a>
+  <a href="areas-de-practica.html" onclick="toggleMenu()">Áreas de Práctica</a>
+  <a href="oficinas.html" onclick="toggleMenu()">Oficinas</a>
+  <a href="trabajar-en-sys.html" onclick="toggleMenu()">Trabajar en S&amp;S</a>
+  <div class="mnav-lang">
+    <a href="contacto.html" class="active">ESPAÑOL</a><span>|</span><a href="en/contact.html">ENGLISH</a>
+  </div>
+  <a href="contacto.html" class="btn-solid">Contacto</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-tint"></div>
+  <p class="eyebrow reveal">Contacto</p>
+  <h1 class="reveal">Escribinos</h1>
+  <p class="page-hero-sub reveal">Completá el formulario y te respondemos a la brevedad.</p>
+</section>
+
+<!-- ═══ DATOS DE CONTACTO ═══════════════════════════════════ -->
+<section class="office-info">
+  <div class="office-info-inner reveal">
+    <div class="office-info-block">
+      <h5>Teléfono</h5>
+      <p><a href="tel:+541152783435">5278-3435</a></p>
+    </div>
+    <div class="office-info-block">
+      <h5>Fax</h5>
+      <p>4032-0171</p>
+    </div>
+    <div class="office-info-block">
+      <h5>Oficina</h5>
+      <p><a href="oficinas.html">Av. Alicia Moreau de Justo 1150, CABA</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FORMULARIO ══════════════════════════════════════════ -->
+<section class="lead-form-section">
+  <div class="lead-form-inner">
+    <form class="lead-form" action="#" method="POST">
+      <div class="form-group">
+        <label for="c-nombre">Nombre y apellido*</label>
+        <input type="text" id="c-nombre" name="nombre" required />
+      </div>
+      <div class="form-group">
+        <label for="c-email">E-mail*</label>
+        <input type="email" id="c-email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="c-telefono">Teléfono*</label>
+        <input type="tel" id="c-telefono" name="telefono" required />
+      </div>
+      <div class="form-group">
+        <label for="c-comentarios">Comentarios*</label>
+        <textarea id="c-comentarios" name="comentarios" required></textarea>
+      </div>
+      <p class="form-required">* Campos obligatorios</p>
+      <button type="submit" class="btn-solid">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="logo.png" alt="S&amp;S Abogados" />
+      <p class="footer-tagline">Servicio jurídico integral, con visión de negocios.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegación</h5>
+      <a href="quienes-somos.html">Quiénes Somos</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="areas-de-practica.html">Áreas de Práctica</a>
+      <a href="oficinas.html">Oficinas</a>
+      <a href="trabajar-en-sys.html">Trabajar en S&amp;S</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contacto</h5>
+      <a href="tel:+541152783435">Tel: 5278-3435</a>
+      <a href="contacto.html">Formulario de contacto</a>
+      <p>Av. Alicia Moreau de Justo 1150, Piso 3,<br>Oficina A306, CP 1107, CABA</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados.</span>
+    <span class="footer-credit">Desarrollado por <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

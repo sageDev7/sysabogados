@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="only light">
+  <title>Equipo — S&amp;S Abogados</title>
+  <meta name="description" content="Conocé al socio y los cinco asociados de S&S Abogados, especializados en distintas áreas del derecho." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════ -->
+<nav class="nav" id="navbar">
+  <a class="nav-logo" href="index.html">
+    <img src="logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
+    <img src="logo.png" class="logo-dark" alt="S&amp;S Abogados" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+    <li><a href="equipo.html" class="active">Equipo</a></li>
+    <li><a href="areas-de-practica.html">Áreas de Práctica</a></li>
+    <li><a href="oficinas.html">Oficinas</a></li>
+    <li><a href="trabajar-en-sys.html">Trabajar en S&amp;S</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switch">
+      <a href="equipo.html" class="active">ES</a>
+      <span>|</span>
+      <a href="en/team.html">EN</a>
+    </div>
+    <a href="contacto.html" class="nav-cta">Contacto</a>
+  </div>
+</nav>
+<button class="hamburger" onclick="toggleMenu()" aria-label="Menú">
+  <div class="hamburger-inner">
+    <span></span><span></span><span></span>
+  </div>
+</button>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <img src="logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
+  <div class="mnav-divider"></div>
+  <a href="quienes-somos.html" onclick="toggleMenu()">Quiénes Somos</a>
+  <a href="equipo.html" onclick="toggleMenu()">Equipo</a>
+  <a href="areas-de-practica.html" onclick="toggleMenu()">Áreas de Práctica</a>
+  <a href="oficinas.html" onclick="toggleMenu()">Oficinas</a>
+  <a href="trabajar-en-sys.html" onclick="toggleMenu()">Trabajar en S&amp;S</a>
+  <div class="mnav-lang">
+    <a href="equipo.html" class="active">ESPAÑOL</a><span>|</span><a href="en/team.html">ENGLISH</a>
+  </div>
+  <a href="contacto.html" class="btn-solid">Contacto</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-tint"></div>
+  <p class="eyebrow reveal">Equipo</p>
+  <h1 class="reveal">Un socio y cinco asociados, especializados en distintas áreas del derecho</h1>
+  <p class="page-hero-sub reveal">Nuestro estudio está organizado en equipos liderados por el socio, con una estructura interna pensada para el crecimiento profesional de cada letrado.</p>
+</section>
+
+<!-- ═══ PERFILES ════════════════════════════════════════════ -->
+<section class="team-profiles">
+
+  <div class="team-profile" id="seoane">
+    <div class="profile-photo reveal-left">
+      <img src="sebastian-seoane.png" alt="Sebastian Seoane" />
+    </div>
+    <div class="profile-info reveal-right">
+      <span class="profile-tag">Socio</span>
+      <h2>Sebastian Seoane</h2>
+      <p class="profile-meta">Nació en Buenos Aires, Argentina, el 14 de febrero de 1988.</p>
+      <div class="profile-block">
+        <h5>Formación</h5>
+        <p>Graduado como Abogado en la Universidad de Ciencias Empresariales y Sociales.<br>Diplomado en Contratos Administrativos de la Universidad Austral.<br>Magíster en Derecho Penal de la Universidad de San Andrés.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Asociaciones a las que pertenece</h5>
+        <p>Colegio de Abogados de la Ciudad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Idiomas</h5>
+        <p>Español, Inglés</p>
+      </div>
+      <div class="profile-block">
+        <h5>Áreas de práctica</h5>
+        <div class="profile-areas">
+          <span>Seguros y Accidentes</span>
+          <span>Derecho Penal</span>
+          <span>Derecho Penal Empresario y Compliance</span>
+        </div>
+      </div>
+      <a href="mailto:sseoane@esysabogados.com.ar" class="link-arrow">sseoane@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile reverse" id="salomone">
+    <div class="profile-photo reveal-right">
+      <img src="facundo-salomone.png" alt="Facundo Salomone" />
+    </div>
+    <div class="profile-info reveal-left">
+      <span class="profile-tag">Asociado</span>
+      <h2>Facundo Salomone</h2>
+      <p class="profile-meta">Nació en Buenos Aires, Argentina, el 4 de marzo de 1987.</p>
+      <div class="profile-block">
+        <h5>Formación</h5>
+        <p>Graduado como abogado en la Universidad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Asociaciones a las que pertenece</h5>
+        <p>Colegio de Abogados de la Ciudad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Idiomas</h5>
+        <p>Español, Inglés</p>
+      </div>
+      <div class="profile-block">
+        <h5>Áreas de práctica</h5>
+        <div class="profile-areas">
+          <span>Seguros y Accidentes</span>
+        </div>
+      </div>
+      <a href="mailto:fsalomone@esysabogados.com.ar" class="link-arrow">fsalomone@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile" id="barrio">
+    <div class="profile-photo reveal-left">
+      <img src="karina-barrio.png" alt="Karina Barrio" />
+    </div>
+    <div class="profile-info reveal-right">
+      <span class="profile-tag">Asociada</span>
+      <h2>Karina Barrio</h2>
+      <div class="profile-block">
+        <h5>Formación</h5>
+        <p>Graduada como abogada en la Universidad de La Plata.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Asociaciones a las que pertenece</h5>
+        <p>Colegio de Abogados de la Ciudad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Idiomas</h5>
+        <p>Español, Inglés</p>
+      </div>
+      <div class="profile-block">
+        <h5>Áreas de práctica</h5>
+        <div class="profile-areas">
+          <span>Derecho de Familia y Sucesorio</span>
+        </div>
+      </div>
+      <a href="mailto:kbarrio@esysabogados.com.ar" class="link-arrow">kbarrio@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile reverse" id="cunsolo">
+    <div class="profile-photo reveal-right">
+      <img src="agustin-cunsolo.png" alt="Agustin Cunsolo" />
+    </div>
+    <div class="profile-info reveal-left">
+      <span class="profile-tag">Asociado</span>
+      <h2>Agustin Cunsolo</h2>
+      <p class="profile-meta">Nació en Buenos Aires, Argentina, el 31 de marzo de 1983.</p>
+      <div class="profile-block">
+        <h5>Formación</h5>
+        <p>Graduado como abogado en la Universidad de Buenos Aires.<br>Magíster en Derecho Administrativo de la Universidad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Asociaciones a las que pertenece</h5>
+        <p>Colegio de Abogados de la Ciudad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Idiomas</h5>
+        <p>Español, Inglés</p>
+      </div>
+      <div class="profile-block">
+        <h5>Áreas de práctica</h5>
+        <div class="profile-areas">
+          <span>Derecho Comercial y Asesoramiento Empresario</span>
+        </div>
+      </div>
+      <a href="mailto:fcunsolo@esysabogados.com.ar" class="link-arrow">fcunsolo@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile" id="novoa">
+    <div class="profile-photo reveal-left">
+      <img src="santiago-novoa.png" alt="Santiago Novoa" />
+    </div>
+    <div class="profile-info reveal-right">
+      <span class="profile-tag">Asociado</span>
+      <h2>Santiago Novoa</h2>
+      <p class="profile-meta">Nació en Buenos Aires, Argentina, el 3 de julio de 1987.</p>
+      <div class="profile-block">
+        <h5>Formación</h5>
+        <p>Graduado como abogado en la Universidad de Ciencias Empresariales y Sociales.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Asociaciones a las que pertenece</h5>
+        <p>Colegio de Abogados de la Ciudad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Idiomas</h5>
+        <p>Español, Inglés</p>
+      </div>
+      <div class="profile-block">
+        <h5>Áreas de práctica</h5>
+        <div class="profile-areas">
+          <span>Seguros y Accidentes</span>
+          <span>Derecho Comercial y Asesoramiento Empresario</span>
+        </div>
+      </div>
+      <a href="mailto:snovoa@esysabogados.com.ar" class="link-arrow">snovoa@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+  <div class="team-profile reverse" id="capello">
+    <div class="profile-photo reveal-right">
+      <img src="ignacio-capello.png" alt="Ignacio Capello" />
+    </div>
+    <div class="profile-info reveal-left">
+      <span class="profile-tag">Asociado</span>
+      <h2>Ignacio Capello</h2>
+      <div class="profile-block">
+        <h5>Formación</h5>
+        <p>Graduado de la Universidad de Morón.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Asociaciones a las que pertenece</h5>
+        <p>Colegio de Abogados de la Ciudad de Buenos Aires.</p>
+      </div>
+      <div class="profile-block">
+        <h5>Idiomas</h5>
+        <p>Español, Inglés</p>
+      </div>
+      <div class="profile-block">
+        <h5>Áreas de práctica</h5>
+        <div class="profile-areas">
+          <span>Seguros y Accidentes</span>
+        </div>
+      </div>
+      <a href="mailto:icapello@esysabogados.com.ar" class="link-arrow">icapello@esysabogados.com.ar →</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══ CTA ═════════════════════════════════════════════════ -->
+<section class="cta-band">
+  <div class="cta-bg"></div>
+  <div class="cta-tint"></div>
+  <h2 class="reveal">¿Querés sumarte al equipo?</h2>
+  <p class="reveal">Conocé las búsquedas abiertas en S&amp;S Abogados.</p>
+  <div class="btn-group reveal">
+    <a href="trabajar-en-sys.html" class="btn-solid-white">Trabajar en S&amp;S</a>
+    <a href="contacto.html" class="btn-ghost-white">Contactanos</a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="logo.png" alt="S&amp;S Abogados" />
+      <p class="footer-tagline">Servicio jurídico integral, con visión de negocios.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navegación</h5>
+      <a href="quienes-somos.html">Quiénes Somos</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="areas-de-practica.html">Áreas de Práctica</a>
+      <a href="oficinas.html">Oficinas</a>
+      <a href="trabajar-en-sys.html">Trabajar en S&amp;S</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contacto</h5>
+      <a href="tel:+541152783435">Tel: 5278-3435</a>
+      <a href="contacto.html">Formulario de contacto</a>
+      <p>Av. Alicia Moreau de Justo 1150, Piso 3,<br>Oficina A306, CP 1107, CABA</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados.</span>
+    <span class="footer-credit">Desarrollado por <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

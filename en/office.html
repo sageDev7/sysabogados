@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="only light">
+  <title>Office — S&amp;S Abogados</title>
+  <meta name="description" content="Our office in Puerto Madero, Alicia Moreau de Justo 1150, 3rd Floor, Office A306, Buenos Aires." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/png" href="../favicon.png" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════ -->
+<nav class="nav" id="navbar">
+  <a class="nav-logo" href="index.html">
+    <img src="../logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
+    <img src="../logo.png" class="logo-dark" alt="S&amp;S Abogados" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="about-us.html">About Us</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="practice-areas.html">Practice Areas</a></li>
+    <li><a href="office.html" class="active">Office</a></li>
+    <li><a href="work-at-sys.html">Work at S&amp;S</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switch">
+      <a href="../oficinas.html">ES</a>
+      <span>|</span>
+      <a href="office.html" class="active">EN</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Contact</a>
+  </div>
+</nav>
+<button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+  <div class="hamburger-inner">
+    <span></span><span></span><span></span>
+  </div>
+</button>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <img src="../logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
+  <div class="mnav-divider"></div>
+  <a href="about-us.html" onclick="toggleMenu()">About Us</a>
+  <a href="team.html" onclick="toggleMenu()">Team</a>
+  <a href="practice-areas.html" onclick="toggleMenu()">Practice Areas</a>
+  <a href="office.html" onclick="toggleMenu()">Office</a>
+  <a href="work-at-sys.html" onclick="toggleMenu()">Work at S&amp;S</a>
+  <div class="mnav-lang">
+    <a href="../oficinas.html">ESPAÑOL</a><span>|</span><a href="office.html" class="active">ENGLISH</a>
+  </div>
+  <a href="contact.html" class="btn-solid">Contact</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-tint"></div>
+  <p class="eyebrow reveal">Office</p>
+  <h1 class="reveal">Visit us in Puerto Madero</h1>
+  <p class="page-hero-sub reveal">Our office is located facing the Río de la Plata, in one of Buenos Aires' most important corporate hubs.</p>
+</section>
+
+<!-- ═══ ADDRESS ═════════════════════════════════════════════ -->
+<section class="office-info">
+  <div class="office-info-inner reveal">
+    <div class="office-info-block">
+      <h5>Address</h5>
+      <p>Alicia Moreau de Justo 1150, 3rd Floor,<br>Office A306, CP 1107<br>Buenos Aires, Argentina</p>
+    </div>
+    <div class="office-info-block">
+      <h5>Phone</h5>
+      <p><a href="tel:+541152783435">5278 3435</a></p>
+    </div>
+    <div class="office-info-block">
+      <h5>Fax</h5>
+      <p>4032 0171</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ GALLERY ═════════════════════════════════════════════ -->
+<section class="office-gallery">
+  <div class="gallery-grid">
+    <img src="../slide-1.png" alt="View of the Río de la Plata from Puerto Madero" class="reveal" />
+    <img src="../slide-3.png" alt="Puerto Madero buildings" class="reveal" />
+    <img src="../slide-2.png" alt="S&amp;S Abogados meeting room" class="reveal" />
+    <img src="../slide-4.png" alt="Building's interior corridor" class="reveal" />
+  </div>
+</section>
+
+<!-- ═══ MAP ═════════════════════════════════════════════════ -->
+<section class="map-section">
+  <iframe src="https://www.google.com/maps?q=Av.+Alicia+Moreau+de+Justo+1150,+Buenos+Aires,+Argentina&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="S&amp;S Abogados location"></iframe>
+</section>
+
+<!-- ═══ CTA ═════════════════════════════════════════════════ -->
+<section class="cta-band">
+  <div class="cta-bg"></div>
+  <div class="cta-tint"></div>
+  <h2 class="reveal">Prefer to schedule a meeting?</h2>
+  <p class="reveal">Write to us and we'll arrange a visit to our office.</p>
+  <div class="btn-group reveal">
+    <a href="contact.html" class="btn-solid-white">Contact Us</a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="../logo.png" alt="S&amp;S Abogados" />
+      <p class="footer-tagline">Comprehensive legal service, with business vision.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigation</h5>
+      <a href="about-us.html">About Us</a>
+      <a href="team.html">Team</a>
+      <a href="practice-areas.html">Practice Areas</a>
+      <a href="office.html">Office</a>
+      <a href="work-at-sys.html">Work at S&amp;S</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="tel:+541152783435">Tel: 5278 3435</a>
+      <a href="contact.html">Contact form</a>
+      <p>Alicia Moreau de Justo 1150, 3rd Floor,<br>Office A306, CP 1107, Buenos Aires</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 S&amp;S Abogados. All rights reserved.</span>
+    <span class="footer-credit">Developed by <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
+  </div>
+</footer>
+
+<script src="../main.js"></script>
+</body>
+</html>
