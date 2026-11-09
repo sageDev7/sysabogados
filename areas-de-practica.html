@@ -4,33 +4,44 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="only light">
+  <meta name="robots" content="noindex, nofollow">
   <title>Áreas de Práctica — S&amp;S Abogados</title>
-  <meta name="description" content="Derecho Penal, Derecho Penal Empresario y Compliance, Seguros y Accidentes, Derecho de Familia y Sucesorio, Derecho Comercial y Asesoramiento Empresario." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Amparos de Salud, Derecho Penal, Derecho Penal Empresario y Compliance, Seguros y Accidentes, Derecho Sucesorio, Derecho Comercial y Asesoramiento Empresario." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="S&amp;S Abogados" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:title" content="Áreas de Práctica — S&amp;S Abogados" />
+  <meta property="og:description" content="Amparos de Salud, Derecho Penal, Derecho Penal Empresario y Compliance, Seguros y Accidentes, Derecho Sucesorio, Derecho Comercial y Asesoramiento Empresario." />
+  <meta property="og:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <link rel="stylesheet" href="styles.css?v=20261103i" />
   <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 <body>
 
 <!-- ═══ NAV ═══════════════════════════════════════════════ -->
 <nav class="nav" id="navbar">
-  <a class="nav-logo" href="index.html">
+  <a class="nav-logo" href="/">
     <img src="logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
     <img src="logo.png" class="logo-dark" alt="S&amp;S Abogados" />
   </a>
   <ul class="nav-links">
-    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
-    <li><a href="equipo.html">Equipo</a></li>
-    <li><a href="areas-de-practica.html" class="active">Áreas de Práctica</a></li>
-    <li><a href="oficinas.html">Oficinas</a></li>
-    <li><a href="trabajar-en-sys.html">Trabajar en S&amp;S</a></li>
+    <li><a href="/quienes-somos">Quiénes Somos</a></li>
+    <li><a href="/equipo">Equipo</a></li>
+    <li><a href="/areas-de-practica" class="active">Áreas de Práctica</a></li>
+    <li><a href="/oficinas">Oficinas</a></li>
+    <li><a href="/trabajar-en-sys">Trabajar en S&amp;S</a></li>
   </ul>
   <div class="nav-right">
     <div class="lang-switch">
-      <a href="areas-de-practica.html" class="active">ES</a>
+      <a href="/areas-de-practica" class="active">ES</a>
       <span>|</span>
-      <a href="en/practice-areas.html">EN</a>
+      <a href="/en/practice-areas">EN</a>
     </div>
-    <a href="contacto.html" class="nav-cta">Contacto</a>
+    <a href="/contacto" class="nav-cta">Contacto</a>
   </div>
 </nav>
 <button class="hamburger" onclick="toggleMenu()" aria-label="Menú">
@@ -43,15 +54,15 @@
 <div class="mobile-menu" id="mobileMenu">
   <img src="logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
   <div class="mnav-divider"></div>
-  <a href="quienes-somos.html" onclick="toggleMenu()">Quiénes Somos</a>
-  <a href="equipo.html" onclick="toggleMenu()">Equipo</a>
-  <a href="areas-de-practica.html" onclick="toggleMenu()">Áreas de Práctica</a>
-  <a href="oficinas.html" onclick="toggleMenu()">Oficinas</a>
-  <a href="trabajar-en-sys.html" onclick="toggleMenu()">Trabajar en S&amp;S</a>
+  <a href="/quienes-somos" onclick="toggleMenu()">Quiénes Somos</a>
+  <a href="/equipo" onclick="toggleMenu()">Equipo</a>
+  <a href="/areas-de-practica" onclick="toggleMenu()">Áreas de Práctica</a>
+  <a href="/oficinas" onclick="toggleMenu()">Oficinas</a>
+  <a href="/trabajar-en-sys" onclick="toggleMenu()">Trabajar en S&amp;S</a>
   <div class="mnav-lang">
-    <a href="areas-de-practica.html" class="active">ESPAÑOL</a><span>|</span><a href="en/practice-areas.html">ENGLISH</a>
+    <a href="/areas-de-practica" class="active">ESPAÑOL</a><span>|</span><a href="/en/practice-areas">ENGLISH</a>
   </div>
-  <a href="contacto.html" class="btn-solid">Contacto</a>
+  <a href="/contacto" class="btn-solid">Contacto</a>
 </div>
 
 <!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
@@ -60,58 +71,134 @@
   <div class="page-hero-tint"></div>
   <p class="eyebrow reveal">Áreas de Práctica</p>
   <h1 class="reveal">Un equipo preparado para cada necesidad legal</h1>
-  <p class="page-hero-sub reveal">Desarrollamos una estructura que nos permite absorber grandes volúmenes de trabajo con un óptimo equilibrio costo-calidad, atendiendo también de manera personal a quienes requieren menor volumen.</p>
 </section>
 
 <!-- ═══ ÁREAS (detalle) ═════════════════════════════════════ -->
-<section class="area-detail" id="penal">
+<section class="area-detail" id="salud">
   <div class="area-detail-inner reveal">
     <span class="area-detail-num">01</span>
-    <h2>Derecho Penal</h2>
-    <p>Asesoramos a nuestros clientes en todas las etapas del proceso, sea en la Instrucción, Juicio Oral, o mediante Recursos de Apelación, Casación o Extraordinario.</p>
-    <p>Nuestro estudio se encuentra trabajando a la par de las fiscalías, interviniendo en diversos procesos como parte querellante y/o particular damnificado, asumiendo un rol más activo dentro del marco del proceso penal a los efectos de aportar prueba e instar la causa penal.</p>
-    <p>Actualmente gestionamos defensas en: homicidios, delitos contra la integridad sexual, robos y hurtos, lesiones leves o agravadas, tentativas, amenazas y privación ilegítima de la libertad, delitos contra el orden público, delitos contra la seguridad de la Nación, delitos contra los poderes públicos y el orden constitucional, delitos contra la administración pública y delitos contra el orden económico y financiero.</p>
-    <p>Nuestra firma cuenta con especialistas altamente capacitados en la materia, brindando un asesoramiento pleno en favor de nuestros clientes con la finalidad de establecer una estrategia adecuada que permita superar y minimizar los riesgos que puedan derivarse de situaciones críticas.</p>
+    <h2>Amparos de Salud</h2>
+    <p>Comprendemos la urgencia e importancia crítica que representan las cuestiones relativas a la salud y la cobertura médica. Brindamos patrocinio y representación legal para garantizar el cumplimiento efectivo de las prestaciones médicas frente a obras sociales y empresas de medicina prepaga. Actualmente nos encontramos litigando en diversas causas por:</p>
+    <ol class="detail-list">
+      <li><strong>Acceso a Tratamientos y Medicamentos:</strong> Interposición de acciones de amparo y sumarísimos con medidas cautelares urgentes para la provisión de medicamentos de alta complejidad, insumos, prótesis, terapias específicas y coberturas médicas denegadas o demoradas.</li>
+      <li><strong>Continuidad de Cobertura por Jubilación:</strong> Asesoramiento y representación legal para mantener la misma empresa de medicina prepaga u obra social al momento de jubilarse, resguardando la antigüedad y las condiciones prestacionales sin incrementos indebidos ni traspasos compulsivos.</li>
+      <li><strong>Cuestiones de Discapacidad y Cobertura 100%:</strong> Tramitación de reclamos por la falta de cobertura integral en prestaciones para personas con certificado de discapacidad (CUD).</li>
+      <li><strong>Aumentos Indebidos y Negativas de Afiliación:</strong> Reclamos frente a aumentos desmedidos o abusivos fuera de la normativa vigente y negativas de ingreso por patologías previas.</li>
+    </ol>
+    <p>Tu salud no puede esperar; defender tu derecho a recibir la atención que te corresponde es nuestra prioridad.</p>
   </div>
 </section>
 
-<section class="area-detail alt" id="compliance">
+<section class="area-detail alt" id="penal">
   <div class="area-detail-inner reveal">
     <span class="area-detail-num">02</span>
-    <h2>Derecho Penal Empresario y Compliance</h2>
-    <p>Nuestra firma representa a empresas locales en una gran variedad de asuntos penales, tanto en función de defensores como de acusadores particulares.</p>
-    <p>Actualmente gestionamos defensas y querellas criminales, como así también investigaciones internas, recolección y preservación de prueba digital.</p>
-    <p>Nuestro estudio también ofrece asesoramiento penal preventivo mediante la realización de programas de Compliance, cuyo objeto es la ejecución de procedimientos y buenas prácticas internas. Esta metodología permite identificar y clasificar los riesgos operativos y legales a los que se enfrentan nuestros clientes, para luego establecer mecanismos internos de prevención, gestión, control y reacción frente a los mismos.</p>
-    <p>Los riesgos a prevenir son aquellos que conllevan consecuencias como el daño reputacional, la imposición de importantes multas y sanciones, las pérdidas de negocios o la exclusión de licitaciones o subvenciones públicas, entre otras.</p>
-    <p>Los abogados del equipo cuentan con vasta experiencia en el área y han trabajado en el sector público, aportando una valiosa combinación de experiencia y conocimientos.</p>
+    <h2>Derecho Penal</h2>
+    <p>Brindamos asesoramiento, patrocinio y defensa legal en materia penal, acompañando a nuestros clientes con la máxima reserva, celeridad y rigor técnico ante situaciones complejas o críticas. Diseñamos estrategias adaptadas a cada caso con el objetivo de resguardar sus derechos y minimizar contingencias legales.</p>
+    <ol class="detail-list">
+      <li><strong>Acompañamiento e Intervención Procesal:</strong> Asesoramos y ejercemos la representación en todas las etapas del proceso penal, desde la Instrucción e Investigación Penal Preparatoria (IPP), pasando por el Juicio Oral, hasta la interposición e impugnación mediante Recursos de Apelación, Casación y Recursos Extraordinarios.</li>
+      <li><strong>Rol Activo como Parte Querellante:</strong> Trabajamos activamente a la par de las fiscalías en representación de las víctimas. Asumimos un rol proactivo dentro del proceso penal a fin de aportar material probatorio clave e impulsar permanentemente el avance de la causa.</li>
+      <li><strong>Gestión de Defensas Técnicas:</strong> Contamos con especialistas capacitados para asumir la defensa técnica en una amplia variedad de figuras delictivas:
+        <ol class="detail-sublist">
+          <li>Delitos contra las personas (homicidios, lesiones leves y agravadas, tentativas).</li>
+          <li>Delitos contra la propiedad (robos, hurtos, estafas).</li>
+          <li>Delitos contra la libertad e integridad de las personas (amenazas, privación ilegítima de la libertad, delitos contra la integridad sexual).</li>
+          <li>Delitos contra la administración pública, el orden público y la seguridad.</li>
+          <li>Delitos contra los poderes públicos, el orden constitucional y el orden económico y financiero.</li>
+        </ol>
+      </li>
+    </ol>
+    <p>En momentos donde la libertad y la tranquilidad personal están en riesgo, ofrecemos un respaldo técnico, estratégico y de máxima confidencialidad.</p>
   </div>
 </section>
 
-<section class="area-detail" id="seguros">
+<section class="area-detail" id="compliance">
   <div class="area-detail-inner reveal">
     <span class="area-detail-num">03</span>
-    <h2>Seguros y Accidentes</h2>
-    <p>Nuestro estudio asesora y gestiona todo lo que refiere a siniestros en particular, ya sea interviniendo en las negociaciones o gestionando casos en sede judicial, extrajudicial y/o arbitral.</p>
-    <p>Somos especialistas en accidentes de tránsito y asesoramos a nuestros clientes efectuando reclamos contra compañías de seguros o terceros a fines de percibir las indemnizaciones que correspondan.</p>
-    <p>Contamos con un cuerpo interdisciplinario de médicos, psicólogos e ingenieros mecánicos que nos asisten en la defensa y mejor atención de nuestra clientela; todo ello nos permite brindar un asesoramiento integral y ofrecer resultados de calidad.</p>
-    <p>Nuestra estructura permite desempeñarnos en siniestros que den lugar a responsabilidad civil y penal por el uso automotor. El estudio cuenta con más de 10 años de experiencia en el sector, garantizando un trabajo de excelencia y un compromiso total en favor de nuestros clientes.</p>
+    <h2>Derecho Penal Empresario y Compliance</h2>
+    <p>En un entorno corporativo cada vez más regulado e interconectado, la gestión de riesgos legales es fundamental para la sostenibilidad y la reputación de las empresas. Brindamos asesoramiento integral a empresas locales frente a contingencias penales e investigativas, combinando la práctica preventiva con la defensa técnica especializada.</p>
+    <h3>Áreas de Actuación</h3>
+    <ol class="detail-list">
+      <li><strong>Defensas y Querellas Corporativas:</strong> Representamos a empresas tanto en el rol de defensores como de acusadores particulares (querellantes) en causas por delitos económicos, societarios, tributarios, bancarios, informáticos y contra la administración pública.</li>
+      <li><strong>Investigaciones Internas y Evidencia Digital:</strong> Diseñamos y llevamos a cabo procesos de investigación interna frente a sospechas o denuncias de irregularidades dentro de la organización. Contamos con protocolos avanzados para la recolección, cadena de custodia y preservación de prueba digital, garantizando su validez probatoria en sede judicial.</li>
+      <li><strong>Programas de Compliance y Asesoramiento Preventivo:</strong> Implementamos sistemas de gestión de cumplimiento normativo y programas de integridad adaptados a la realidad de cada empresa. Nuestro abordaje preventivo permite:
+        <ol class="detail-sublist">
+          <li>Identificar y clasificar riesgos operativos y legales específicos del sector.</li>
+          <li>Establecer mecanismos internos de prevención, control y reacción mediante códigos de conducta, líneas éticas y protocolos de actuación.</li>
+          <li>Mitigar contingencias críticas como daños reputacionales, sanciones económicas y multas severas, pérdida de negocios o la inhabilitación para participar en licitaciones y contrataciones públicas.</li>
+        </ol>
+      </li>
+    </ol>
+    <h3>Nuestro Valor Diferencial</h3>
+    <p>El equipo a cargo de esta área está integrado por profesionales con amplia trayectoria y destacada experiencia en el sector público. Esta perspectiva integral nos permite entender el funcionamiento institucional desde adentro, aportando una visión estratégica, preventiva y de alta eficacia en la resolución de conflictos complejos.</p>
   </div>
 </section>
 
-<section class="area-detail alt" id="familia">
+<section class="area-detail alt" id="seguros">
   <div class="area-detail-inner reveal">
     <span class="area-detail-num">04</span>
-    <h2>Derecho de Familia y Sucesorio</h2>
-    <p>Nuestro estudio, a través de sus profesionales, asesora a sus clientes en trámites de juicios de divorcio, disolución de sociedad conyugal, alimentos y tenencia de hijos. Trabajamos también la planificación sucesoria y los juicios sucesorios.</p>
+    <h2>Seguros y Accidentes</h2>
+    <p>Con más de 15 años de trayectoria especializada en el sector, brindamos asesoramiento, representación e intervención en la resolución de siniestros viales y reclamos por responsabilidad civil y penal con el objetivo de obtener la reparación e indemnización justa.</p>
+    <h3>Nuestros Servicios en la Materia</h3>
+    <ol class="detail-list">
+      <li><strong>Gestión Integral de Siniestros Viales:</strong> Representación activa frente a compañías de seguros y terceros responsables por accidentes de tránsito.</li>
+      <li><strong>Cobro de Indemnizaciones:</strong> Reclamos efectivos por daños materiales, incapacidad física y psicológica, lucro cesante, daño moral y gastos médicos o de reparación.</li>
+      <li><strong>Abordaje Integral (Civil y Penal):</strong> Nuestra estructura nos permite intervenir de forma simultánea e integral en siniestros automotores que originen responsabilidad civil por daños y perjuicios, así como en causas penales derivadas del uso de vehículos (lesiones o homicidios culposos).</li>
+      <li><strong>Negociación y Estrategia Litis:</strong> Intervenimos en las negociaciones extrajudiciales para lograr un acuerdo rápido y conveniente, y de no ser posible, llevar el reclamo con firmeza y rigor técnico a la vía judicial.</li>
+    </ol>
+    <h3>Nuestro Valor Agregado</h3>
+    <p>Para fundar y respaldar cada reclamo de manera inobjetable, contamos con el apoyo constante de un cuerpo interdisciplinario de peritos de parte:</p>
+    <ol class="detail-list">
+      <li><strong>Ingenieros mecánicos y peritos en accidentología:</strong> Para la reconstrucción técnica de los hechos y la determinación precisa de las mecánicas del accidente.</li>
+      <li><strong>Médicos legistas y psicólogos:</strong> Para evaluar de forma científica el grado de incapacidad física, las secuelas psicológicas y el impacto real en la vida del damnificado.</li>
+    </ol>
+    <p>Esta alianza técnica nos permite calcular indemnizaciones precisas, construir pruebas sólidas y ofrecer resultados de alta calidad a nuestros clientes.</p>
   </div>
 </section>
 
-<section class="area-detail" id="comercial">
+<section class="area-detail" id="sucesorio">
   <div class="area-detail-inner reveal">
     <span class="area-detail-num">05</span>
+    <h2>Derecho Sucesorio</h2>
+    <p>Comprendemos que la transmisión del patrimonio familiar o el fallecimiento de un ser querido involucran momentos de alta carga emocional y complejidad organizativa. Por ello, abordamos cada proceso sucesorio con rigor técnico, agilidad y empatía, ofreciendo soluciones claras para resguardar los bienes y la armonía familiar.</p>
+    <h3>Nuestros Servicios</h3>
+    <ol class="detail-list">
+      <li><strong>Juicios Sucesorios (Ab Intestato y Testamentarios):</strong> Tramitación ágil y eficiente de procesos sucesorios en la Ciudad Autónoma de Buenos Aires y la Provincia de Buenos Aires. Gestionamos el proceso en todas sus etapas, desde la obtención de la Declaratoria de Herederos o validez del testamento, hasta la adjudicación e inscripción de bienes inmuebles, muebles registrables y activos financieros.</li>
+      <li><strong>Planificación Sucesoria Preventiva:</strong> Asesoramiento legal integral para estructurar la transmisión futura del patrimonio en vida, optimizando costos, evitando litigios familiares futuros y garantizando el cumplimiento de la voluntad del causante mediante:
+        <ol class="detail-sublist">
+          <li>Redacción y registro de testamentos.</li>
+          <li>Donaciones de bienes con reserva de usufructo vitalicio.</li>
+          <li>Planificación de la continuidad en empresas familiares y protocolos de sucesión.</li>
+          <li>Acuerdos particionarios y fideicomisos.</li>
+        </ol>
+      </li>
+      <li><strong>Resolución de Conflictos entre Herederos:</strong> Mediación, negociación y patrocinio letrado en disputas sucesorias, reclamos por colación de bienes, acciones de reducción, invalidez de testamentos y exclusión de herederos.</li>
+      <li><strong>Fideicomisos Testamentarios:</strong> Diseño e implementación de fideicomisos para la administración, protección y distribución diferida de bienes a favor de herederos, personas con discapacidad o la administración de empresas familiares.</li>
+    </ol>
+    <p>Protegemos el patrimonio construido con el esfuerzo de toda una vida, facilitando un traspaso ordenado, seguro y transparente para tus seres queridos.</p>
+  </div>
+</section>
+
+<section class="area-detail alt" id="comercial">
+  <div class="area-detail-inner reveal">
+    <span class="area-detail-num">06</span>
     <h2>Derecho Comercial y Asesoramiento Empresario</h2>
-    <p>Nuestra firma asesora a sus clientes en materia comercial, societaria y de contratos, representando a compañías locales en un amplio espectro de operaciones, así como en los asuntos legales diarios de los clientes.</p>
-    <p>Para ello cuenta con profesionales altamente capacitados en el área, quienes poseen un profundo conocimiento de la industria para la cual trabajan, lo cual constituye un valor agregado de máxima importancia al momento de defender un caso ante un tribunal judicial, administrativo o arbitral.</p>
+    <p>Acompañamos a empresas, PYMEs y emprendimientos en todas las etapas de su desarrollo, brindando un respaldo legal dinámico, estratégico y orientado al crecimiento del negocio. Ofrecemos respuestas eficaces tanto para las decisiones del día a día como para transacciones de alta complejidad y resolución de disputas corporativas.</p>
+    <h3>Nuestros Servicios</h3>
+    <ol class="detail-list">
+      <li><strong>Abono Jurídico Mensual (Asesoramiento Extrajudicial):</strong> Un servicio de abono corporativo pensado para empresas que buscan previsibilidad de costos y respaldo legal constante en su operatoria habitual sin necesidad de recurrir a la vía judicial. Incluye:
+        <ol class="detail-sublist">
+          <li>Consultoría legal continua y preventiva para la toma de decisiones gerenciales.</li>
+          <li>Redacción, revisión de cartas documento y telegramas.</li>
+          <li>Mediaciones y negociaciones extrajudiciales con proveedores, clientes o terceros.</li>
+          <li>Auditoría de riesgos legales y adecuación normativa recurrente.</li>
+        </ol>
+      </li>
+      <li><strong>Derecho Societario y Gobierno Corporativo:</strong> Constitución de sociedades, reformas estatutarias, aumentos de capital, transferencia de acciones/cuotas, pactos de socios y tramitaciones ante la IGJ y Registros Públicos.</li>
+      <li><strong>Contratos Comercial Complejos:</strong> Estructuración y negociación de contratos nacionales e internacionales (franquicias, distribución, leasing, fideicomisos, licencias y suministros).</li>
+      <li><strong>Resolución de Conflictos Comerciales:</strong> Defensas y reclamos corporativos ante tribunales judiciales, órganos administrativos y tribunales arbitrales cuando la vía extrajudicial se agota.</li>
+    </ol>
+    <h3>Nuestro Valor Diferencial</h3>
+    <p>Contamos con profesionales altamente capacitados que combinan la excelencia técnica con un profundo conocimiento en la materia. Nuestros letrados han trabajado en el sector privado y público, aportando una valiosa combinación de experiencia y conocimientos constituyendo de esta manera una ventaja estratégica decisiva tanto en la mesa de negociación como en el fuero judicial.</p>
   </div>
 </section>
 
@@ -122,8 +209,8 @@
   <h2 class="reveal">¿Necesitás asesoramiento en alguna de estas áreas?</h2>
   <p class="reveal">Contanos tu situación y te ponemos en contacto con el profesional indicado.</p>
   <div class="btn-group reveal">
-    <a href="contacto.html" class="btn-solid-white">Contactanos</a>
-    <a href="equipo.html" class="btn-ghost-white">Conocer al Equipo</a>
+    <a href="/contacto" class="btn-solid-white">Contactanos</a>
+    <a href="/equipo" class="btn-ghost-white">Conocer al Equipo</a>
   </div>
 </section>
 
@@ -132,29 +219,29 @@
   <div class="footer-top">
     <div class="footer-brand">
       <img src="logo.png" alt="S&amp;S Abogados" />
-      <p class="footer-tagline">Servicio jurídico integral, con visión de negocios.</p>
+      <p class="footer-tagline">Estudio jurídico integral.</p>
     </div>
     <div class="footer-col">
       <h5>Navegación</h5>
-      <a href="quienes-somos.html">Quiénes Somos</a>
-      <a href="equipo.html">Equipo</a>
-      <a href="areas-de-practica.html">Áreas de Práctica</a>
-      <a href="oficinas.html">Oficinas</a>
-      <a href="trabajar-en-sys.html">Trabajar en S&amp;S</a>
+      <a href="/quienes-somos">Quiénes Somos</a>
+      <a href="/equipo">Equipo</a>
+      <a href="/areas-de-practica">Áreas de Práctica</a>
+      <a href="/oficinas">Oficinas</a>
+      <a href="/trabajar-en-sys">Trabajar en S&amp;S</a>
     </div>
     <div class="footer-col">
       <h5>Contacto</h5>
       <a href="tel:+541152783435">Tel: 5278-3435</a>
-      <a href="contacto.html">Formulario de contacto</a>
+      <a href="/contacto">Formulario de contacto</a>
       <p>Av. Alicia Moreau de Justo 1150, Piso 3,<br>Oficina A306, CP 1107, CABA</p>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados.</span>
+    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados. · <a href="/privacidad">Política de privacidad</a></span>
     <span class="footer-credit">Desarrollado por <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
   </div>
 </footer>
 
-<script src="main.js"></script>
+<script src="main.js?v=20261103i"></script>
 </body>
 </html>

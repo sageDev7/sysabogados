@@ -4,33 +4,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="only light">
+  <meta name="robots" content="noindex, nofollow">
   <title>S&amp;S Abogados — Estudio Jurídico en Buenos Aires</title>
-  <meta name="description" content="S&S Abogados: servicio jurídico integral en Derecho Penal, Compliance, Seguros y Accidentes, Familia y Sucesorio, y Derecho Comercial. Puerto Madero, Buenos Aires." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="S&S Abogados: estudio jurídico integral en Amparos de Salud, Derecho Penal, Compliance, Seguros y Accidentes, Derecho Sucesorio y Derecho Comercial. Puerto Madero, Buenos Aires." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="S&amp;S Abogados" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:title" content="S&amp;S Abogados — Estudio Jurídico en Buenos Aires" />
+  <meta property="og:description" content="S&S Abogados: estudio jurídico integral en Amparos de Salud, Derecho Penal, Compliance, Seguros y Accidentes, Derecho Sucesorio y Derecho Comercial. Puerto Madero, Buenos Aires." />
+  <meta property="og:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <link rel="preload" as="image" href="slide-1.jpg" fetchpriority="high" />
+  <link rel="stylesheet" href="styles.css?v=20261103i" />
   <link rel="icon" type="image/png" href="favicon.png" />
 </head>
-<body>
+<body class="has-hero-logo">
 
 <!-- ═══ NAV ═══════════════════════════════════════════════ -->
 <nav class="nav" id="navbar">
-  <a class="nav-logo" href="index.html">
+  <a class="nav-logo" href="/">
     <img src="logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
     <img src="logo.png" class="logo-dark" alt="S&amp;S Abogados" />
   </a>
   <ul class="nav-links">
-    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
-    <li><a href="equipo.html">Equipo</a></li>
-    <li><a href="areas-de-practica.html">Áreas de Práctica</a></li>
-    <li><a href="oficinas.html">Oficinas</a></li>
-    <li><a href="trabajar-en-sys.html">Trabajar en S&amp;S</a></li>
+    <li><a href="/quienes-somos">Quiénes Somos</a></li>
+    <li><a href="/equipo">Equipo</a></li>
+    <li><a href="/areas-de-practica">Áreas de Práctica</a></li>
+    <li><a href="/oficinas">Oficinas</a></li>
+    <li><a href="/trabajar-en-sys">Trabajar en S&amp;S</a></li>
   </ul>
   <div class="nav-right">
     <div class="lang-switch">
-      <a href="index.html" class="active">ES</a>
+      <a href="/" class="active">ES</a>
       <span>|</span>
-      <a href="en/index.html">EN</a>
+      <a href="/en/">EN</a>
     </div>
-    <a href="contacto.html" class="nav-cta">Contacto</a>
+    <a href="/contacto" class="nav-cta">Contacto</a>
   </div>
 </nav>
 <button class="hamburger" onclick="toggleMenu()" aria-label="Menú">
@@ -43,28 +55,33 @@
 <div class="mobile-menu" id="mobileMenu">
   <img src="logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
   <div class="mnav-divider"></div>
-  <a href="quienes-somos.html" onclick="toggleMenu()">Quiénes Somos</a>
-  <a href="equipo.html" onclick="toggleMenu()">Equipo</a>
-  <a href="areas-de-practica.html" onclick="toggleMenu()">Áreas de Práctica</a>
-  <a href="oficinas.html" onclick="toggleMenu()">Oficinas</a>
-  <a href="trabajar-en-sys.html" onclick="toggleMenu()">Trabajar en S&amp;S</a>
+  <a href="/quienes-somos" onclick="toggleMenu()">Quiénes Somos</a>
+  <a href="/equipo" onclick="toggleMenu()">Equipo</a>
+  <a href="/areas-de-practica" onclick="toggleMenu()">Áreas de Práctica</a>
+  <a href="/oficinas" onclick="toggleMenu()">Oficinas</a>
+  <a href="/trabajar-en-sys" onclick="toggleMenu()">Trabajar en S&amp;S</a>
   <div class="mnav-lang">
-    <a href="index.html" class="active">ESPAÑOL</a><span>|</span><a href="en/index.html">ENGLISH</a>
+    <a href="/" class="active">ESPAÑOL</a><span>|</span><a href="/en/">ENGLISH</a>
   </div>
-  <a href="contacto.html" class="btn-solid">Contacto</a>
+  <a href="/contacto" class="btn-solid">Contacto</a>
 </div>
 
 <!-- ═══ HERO ════════════════════════════════════════════════ -->
-<section class="hero">
+<section class="hero hero-og">
   <div class="hero-bg"></div>
   <div class="hero-tint"></div>
-  <p class="eyebrow reveal">Estudio Jurídico</p>
-  <h1 class="reveal">Servicio jurídico integral, con visión de negocios</h1>
-  <p class="hero-sub reveal">Profesionales altamente capacitados en diversas ramas del Derecho, con trato personalizado y los principios de la abogacía preventiva por sobre el litigio.</p>
-  <div class="hero-ctas reveal">
-    <a href="areas-de-practica.html" class="btn-solid">Conocer Áreas de Práctica</a>
-    <a href="contacto.html" class="btn-ghost-white">Contactanos</a>
+  <div class="hero-marco" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="hero-og-in">
+    <h1 class="hero-kicker reveal">Estudio jurídico integral <span aria-hidden="true">·</span> Puerto Madero</h1>
+    <img class="hero-logo reveal" src="logo-light.png" alt="S&amp;S Abogados" width="1351" height="915" fetchpriority="high" />
+    <div class="hero-regla reveal" aria-hidden="true"><i></i><b></b><i></i></div>
+    <p class="hero-lema reveal">Abogacía preventiva<br>por sobre el litigio.</p>
+    <div class="hero-ctas reveal">
+      <a href="/areas-de-practica" class="btn-solid">Conocer Áreas de Práctica</a>
+      <a href="/contacto" class="btn-ghost-white">Contactanos</a>
+    </div>
   </div>
+  <nav class="hero-areas reveal" aria-label="Áreas de práctica"><a href="/areas-de-practica#salud">Salud</a><a href="/areas-de-practica#penal">Penal</a><a href="/areas-de-practica#compliance">Compliance</a><a href="/areas-de-practica#seguros">Seguros</a><a href="/areas-de-practica#sucesorio">Sucesiones</a><a href="/areas-de-practica#comercial">Comercial</a></nav>
 </section>
 
 <!-- ═══ QUIÉNES SOMOS ═══════════════════════════════════════ -->
@@ -78,13 +95,12 @@
         <span>Honestidad</span>
         <span>Compromiso</span>
         <span>Pasión</span>
-        <span>Visión de negocios</span>
         <span>Respeto mutuo</span>
       </div>
-      <a href="quienes-somos.html" class="link-arrow">Conocer más →</a>
+      <a href="/quienes-somos" class="link-arrow">Conocer más →</a>
     </div>
     <div class="about-photo reveal-right">
-      <img src="slide-4.png" alt="Oficinas de S&amp;S Abogados" />
+      <img src="slide-4.jpg" alt="Oficinas de S&amp;S Abogados" />
     </div>
   </div>
 </section>
@@ -98,28 +114,33 @@
     <h2>Un equipo preparado para cada necesidad legal</h2>
   </div>
   <div class="areas-grid">
-    <a href="areas-de-practica.html#penal" class="area-card reveal">
+    <a href="/areas-de-practica#salud" class="area-card reveal">
       <span class="area-num">01</span>
+      <h3>Amparos de Salud</h3>
+      <p>Amparos y medidas cautelares urgentes ante obras sociales y prepagas por tratamientos, medicamentos y coberturas.</p>
+    </a>
+    <a href="/areas-de-practica#penal" class="area-card reveal">
+      <span class="area-num">02</span>
       <h3>Derecho Penal</h3>
       <p>Asesoramiento en todas las etapas del proceso penal, con rol activo en instrucción, juicio oral y recursos.</p>
     </a>
-    <a href="areas-de-practica.html#compliance" class="area-card reveal">
-      <span class="area-num">02</span>
+    <a href="/areas-de-practica#compliance" class="area-card reveal">
+      <span class="area-num">03</span>
       <h3>Derecho Penal Empresario y Compliance</h3>
       <p>Defensas y querellas criminales, investigaciones internas y programas de Compliance preventivo.</p>
     </a>
-    <a href="areas-de-practica.html#seguros" class="area-card reveal">
-      <span class="area-num">03</span>
+    <a href="/areas-de-practica#seguros" class="area-card reveal">
+      <span class="area-num">04</span>
       <h3>Seguros y Accidentes</h3>
       <p>Especialistas en accidentes de tránsito, con un cuerpo interdisciplinario que asiste cada reclamo.</p>
     </a>
-    <a href="areas-de-practica.html#familia" class="area-card reveal">
-      <span class="area-num">04</span>
-      <h3>Derecho de Familia y Sucesorio</h3>
-      <p>Divorcios, disolución de sociedad conyugal, alimentos, tenencia y planificación sucesoria.</p>
-    </a>
-    <a href="areas-de-practica.html#comercial" class="area-card reveal">
+    <a href="/areas-de-practica#sucesorio" class="area-card reveal">
       <span class="area-num">05</span>
+      <h3>Derecho Sucesorio</h3>
+      <p>Juicios sucesorios, planificación patrimonial preventiva y resolución de conflictos entre herederos.</p>
+    </a>
+    <a href="/areas-de-practica#comercial" class="area-card reveal">
+      <span class="area-num">06</span>
       <h3>Derecho Comercial y Asesoramiento Empresario</h3>
       <p>Asesoramiento societario y contractual, representando empresas en un amplio espectro de operaciones.</p>
     </a>
@@ -133,39 +154,39 @@
     <h2>Un socio y cinco asociados, especializados en distintas áreas del derecho</h2>
   </div>
   <div class="team-grid">
-    <a href="equipo.html#seoane" class="team-member reveal">
+    <a href="/equipo#seoane" class="team-member reveal">
       <img src="sebastian-seoane.png" alt="Sebastian Seoane" />
       <h4>Sebastian Seoane</h4>
       <span>Socio</span>
     </a>
-    <a href="equipo.html#salomone" class="team-member reveal">
+    <a href="/equipo#salomone" class="team-member reveal">
       <img src="facundo-salomone.png" alt="Facundo Salomone" />
       <h4>Facundo Salomone</h4>
       <span>Asociado</span>
     </a>
-    <a href="equipo.html#barrio" class="team-member reveal">
+    <a href="/equipo#barrio" class="team-member reveal">
       <img src="karina-barrio.png" alt="Karina Barrio" />
       <h4>Karina Barrio</h4>
       <span>Asociada</span>
     </a>
-    <a href="equipo.html#cunsolo" class="team-member reveal">
+    <a href="/equipo#cunsolo" class="team-member reveal">
       <img src="agustin-cunsolo.png" alt="Agustin Cunsolo" />
       <h4>Agustin Cunsolo</h4>
       <span>Asociado</span>
     </a>
-    <a href="equipo.html#novoa" class="team-member reveal">
+    <a href="/equipo#novoa" class="team-member reveal">
       <img src="santiago-novoa.png" alt="Santiago Novoa" />
       <h4>Santiago Novoa</h4>
       <span>Asociado</span>
     </a>
-    <a href="equipo.html#capello" class="team-member reveal">
+    <a href="/equipo#capello" class="team-member reveal">
       <img src="ignacio-capello.png" alt="Ignacio Capello" />
       <h4>Ignacio Capello</h4>
       <span>Asociado</span>
     </a>
   </div>
   <div class="areas-cta reveal">
-    <a href="equipo.html" class="btn-ghost">Conocer al equipo</a>
+    <a href="/equipo" class="btn-ghost">Conocer al equipo</a>
   </div>
 </section>
 
@@ -178,8 +199,8 @@
   <p class="reveal">Av. Alicia Moreau de Justo 1150, Piso 3, Oficina A306, CP 1107, Ciudad Autónoma de Buenos Aires</p>
   <p class="office-phone reveal">Tel: 5278-3435 · Fax: 4032-0171</p>
   <div class="btn-group reveal">
-    <a href="oficinas.html" class="btn-solid-white">Cómo Llegar</a>
-    <a href="contacto.html" class="btn-ghost-white">Contactanos</a>
+    <a href="/oficinas" class="btn-solid-white">Cómo Llegar</a>
+    <a href="/contacto" class="btn-ghost-white">Contactanos</a>
   </div>
 </section>
 
@@ -188,29 +209,29 @@
   <div class="footer-top">
     <div class="footer-brand">
       <img src="logo.png" alt="S&amp;S Abogados" />
-      <p class="footer-tagline">Servicio jurídico integral, con visión de negocios.</p>
+      <p class="footer-tagline">Estudio jurídico integral.</p>
     </div>
     <div class="footer-col">
       <h5>Navegación</h5>
-      <a href="quienes-somos.html">Quiénes Somos</a>
-      <a href="equipo.html">Equipo</a>
-      <a href="areas-de-practica.html">Áreas de Práctica</a>
-      <a href="oficinas.html">Oficinas</a>
-      <a href="trabajar-en-sys.html">Trabajar en S&amp;S</a>
+      <a href="/quienes-somos">Quiénes Somos</a>
+      <a href="/equipo">Equipo</a>
+      <a href="/areas-de-practica">Áreas de Práctica</a>
+      <a href="/oficinas">Oficinas</a>
+      <a href="/trabajar-en-sys">Trabajar en S&amp;S</a>
     </div>
     <div class="footer-col">
       <h5>Contacto</h5>
       <a href="tel:+541152783435">Tel: 5278-3435</a>
-      <a href="contacto.html">Formulario de contacto</a>
+      <a href="/contacto">Formulario de contacto</a>
       <p>Av. Alicia Moreau de Justo 1150, Piso 3,<br>Oficina A306, CP 1107, CABA</p>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados.</span>
+    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados. · <a href="/privacidad">Política de privacidad</a></span>
     <span class="footer-credit">Desarrollado por <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
   </div>
 </footer>
 
-<script src="main.js"></script>
+<script src="main.js?v=20261103i"></script>
 </body>
 </html>

@@ -4,33 +4,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="only light">
+  <meta name="robots" content="noindex, nofollow">
   <title>S&amp;S Abogados — Law Firm in Buenos Aires</title>
-  <meta name="description" content="S&S Abogados: comprehensive legal service in Criminal Law, Compliance, Insurance and Accidents, Family Law, and Commercial Law. Puerto Madero, Buenos Aires." />
-  <link rel="stylesheet" href="../styles.css" />
+  <meta name="description" content="S&S Abogados: comprehensive legal practice in Health Care Injunctions & Writs, Criminal Law, Compliance, Insurance & Personal Injury, Probate & Estate Planning and Corporate & Commercial Law. Puerto Madero, Buenos Aires." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="S&amp;S Abogados" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="S&amp;S Abogados — Law Firm in Buenos Aires" />
+  <meta property="og:description" content="S&S Abogados: comprehensive legal practice in Health Care Injunctions & Writs, Criminal Law, Compliance, Insurance & Personal Injury, Probate & Estate Planning and Corporate & Commercial Law. Puerto Madero, Buenos Aires." />
+  <meta property="og:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <link rel="preload" as="image" href="../slide-1.jpg" fetchpriority="high" />
+  <link rel="stylesheet" href="../styles.css?v=20261103i" />
   <link rel="icon" type="image/png" href="../favicon.png" />
 </head>
-<body>
+<body class="has-hero-logo">
 
 <!-- ═══ NAV ═══════════════════════════════════════════════ -->
 <nav class="nav" id="navbar">
-  <a class="nav-logo" href="index.html">
+  <a class="nav-logo" href="/en/">
     <img src="../logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
     <img src="../logo.png" class="logo-dark" alt="S&amp;S Abogados" />
   </a>
   <ul class="nav-links">
-    <li><a href="about-us.html">About Us</a></li>
-    <li><a href="team.html">Team</a></li>
-    <li><a href="practice-areas.html">Practice Areas</a></li>
-    <li><a href="office.html">Office</a></li>
-    <li><a href="work-at-sys.html">Work at S&amp;S</a></li>
+    <li><a href="/en/about-us">About Us</a></li>
+    <li><a href="/en/team">Team</a></li>
+    <li><a href="/en/practice-areas">Practice Areas</a></li>
+    <li><a href="/en/office">Office</a></li>
+    <li><a href="/en/work-at-sys">Work at S&amp;S</a></li>
   </ul>
   <div class="nav-right">
     <div class="lang-switch">
-      <a href="../index.html">ES</a>
+      <a href="/">ES</a>
       <span>|</span>
-      <a href="index.html" class="active">EN</a>
+      <a href="/en/" class="active">EN</a>
     </div>
-    <a href="contact.html" class="nav-cta">Contact</a>
+    <a href="/en/contact" class="nav-cta">Contact</a>
   </div>
 </nav>
 <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
@@ -43,28 +55,33 @@
 <div class="mobile-menu" id="mobileMenu">
   <img src="../logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
   <div class="mnav-divider"></div>
-  <a href="about-us.html" onclick="toggleMenu()">About Us</a>
-  <a href="team.html" onclick="toggleMenu()">Team</a>
-  <a href="practice-areas.html" onclick="toggleMenu()">Practice Areas</a>
-  <a href="office.html" onclick="toggleMenu()">Office</a>
-  <a href="work-at-sys.html" onclick="toggleMenu()">Work at S&amp;S</a>
+  <a href="/en/about-us" onclick="toggleMenu()">About Us</a>
+  <a href="/en/team" onclick="toggleMenu()">Team</a>
+  <a href="/en/practice-areas" onclick="toggleMenu()">Practice Areas</a>
+  <a href="/en/office" onclick="toggleMenu()">Office</a>
+  <a href="/en/work-at-sys" onclick="toggleMenu()">Work at S&amp;S</a>
   <div class="mnav-lang">
-    <a href="../index.html">ESPAÑOL</a><span>|</span><a href="index.html" class="active">ENGLISH</a>
+    <a href="/">ESPAÑOL</a><span>|</span><a href="/en/" class="active">ENGLISH</a>
   </div>
-  <a href="contact.html" class="btn-solid">Contact</a>
+  <a href="/en/contact" class="btn-solid">Contact</a>
 </div>
 
 <!-- ═══ HERO ════════════════════════════════════════════════ -->
-<section class="hero">
+<section class="hero hero-og">
   <div class="hero-bg"></div>
   <div class="hero-tint"></div>
-  <p class="eyebrow reveal">Law Firm</p>
-  <h1 class="reveal">Comprehensive legal service, with business vision</h1>
-  <p class="hero-sub reveal">Highly trained professionals in various branches of law, with personalized service and the principles of preventive law over litigation.</p>
-  <div class="hero-ctas reveal">
-    <a href="practice-areas.html" class="btn-solid">Practice Areas</a>
-    <a href="contact.html" class="btn-ghost-white">Contact Us</a>
+  <div class="hero-marco" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="hero-og-in">
+    <h1 class="hero-kicker reveal">Comprehensive Law Firm <span aria-hidden="true">·</span> Puerto Madero</h1>
+    <img class="hero-logo reveal" src="../logo-light.png" alt="S&amp;S Abogados" width="1351" height="915" fetchpriority="high" />
+    <div class="hero-regla reveal" aria-hidden="true"><i></i><b></b><i></i></div>
+    <p class="hero-lema reveal">Preventive legal strategy<br>over litigation.</p>
+    <div class="hero-ctas reveal">
+      <a href="/en/practice-areas" class="btn-solid">Practice Areas</a>
+      <a href="/en/contact" class="btn-ghost-white">Contact Us</a>
+    </div>
   </div>
+  <nav class="hero-areas reveal" aria-label="Practice areas"><a href="/en/practice-areas#health">Health</a><a href="/en/practice-areas#criminal">Criminal</a><a href="/en/practice-areas#compliance">Compliance</a><a href="/en/practice-areas#insurance">Insurance</a><a href="/en/practice-areas#succession">Succession</a><a href="/en/practice-areas#commercial">Commercial</a></nav>
 </section>
 
 <!-- ═══ ABOUT US ════════════════════════════════════════════ -->
@@ -78,13 +95,12 @@
         <span>Honesty</span>
         <span>Commitment</span>
         <span>Passion</span>
-        <span>Business vision</span>
         <span>Mutual respect</span>
       </div>
-      <a href="about-us.html" class="link-arrow">Learn more →</a>
+      <a href="/en/about-us" class="link-arrow">Learn more →</a>
     </div>
     <div class="about-photo reveal-right">
-      <img src="../slide-4.png" alt="S&amp;S Abogados offices" />
+      <img src="../slide-4.jpg" alt="S&amp;S Abogados offices" />
     </div>
   </div>
 </section>
@@ -98,29 +114,34 @@
     <h2>A team prepared for every legal need</h2>
   </div>
   <div class="areas-grid">
-    <a href="practice-areas.html#criminal" class="area-card reveal">
+    <a href="/en/practice-areas#health" class="area-card reveal">
       <span class="area-num">01</span>
+      <h3>Health Care Injunctions &amp; Writs</h3>
+      <p>Urgent injunctions and precautionary measures against healthcare providers and private health insurance companies for treatments and coverage.</p>
+    </a>
+    <a href="/en/practice-areas#criminal" class="area-card reveal">
+      <span class="area-num">02</span>
       <h3>Criminal Law</h3>
       <p>Advice at all stages of the criminal process, with an active role in investigation, oral trial and appeals.</p>
     </a>
-    <a href="practice-areas.html#compliance" class="area-card reveal">
-      <span class="area-num">02</span>
-      <h3>Business Criminal Law and Compliance</h3>
-      <p>Criminal defenses and complaints, internal investigations, and preventive Compliance programs.</p>
-    </a>
-    <a href="practice-areas.html#insurance" class="area-card reveal">
+    <a href="/en/practice-areas#compliance" class="area-card reveal">
       <span class="area-num">03</span>
-      <h3>Insurance and Accidents</h3>
-      <p>Specialists in traffic accidents, backed by an interdisciplinary team for every claim.</p>
+      <h3>Corporate Criminal Law &amp; Compliance</h3>
+      <p>Corporate defense, internal investigations and preventive Compliance programs for companies facing criminal risk.</p>
     </a>
-    <a href="practice-areas.html#family" class="area-card reveal">
+    <a href="/en/practice-areas#insurance" class="area-card reveal">
       <span class="area-num">04</span>
-      <h3>Family Law and Succession</h3>
-      <p>Divorce, dissolution of marital property, child support, custody and estate planning.</p>
+      <h3>Insurance &amp; Personal Injury / Traffic Accidents</h3>
+      <p>Specialists in traffic accidents, backed by an interdisciplinary team pursuing fair compensation.</p>
     </a>
-    <a href="practice-areas.html#commercial" class="area-card reveal">
+    <a href="/en/practice-areas#succession" class="area-card reveal">
       <span class="area-num">05</span>
-      <h3>Commercial and Entrepreneur Counselling</h3>
+      <h3>Probate, Estate Planning &amp; Inheritance Law</h3>
+      <p>Probate proceedings, preventive estate planning and resolution of disputes among heirs.</p>
+    </a>
+    <a href="/en/practice-areas#commercial" class="area-card reveal">
+      <span class="area-num">06</span>
+      <h3>Corporate &amp; Commercial Law</h3>
       <p>Corporate and contract advice, representing companies across a wide range of operations.</p>
     </a>
   </div>
@@ -130,42 +151,42 @@
 <section class="team">
   <div class="section-header reveal">
     <p class="eyebrow">Our Team</p>
-    <h2>One partner and five associates, specialized in different areas of law</h2>
+    <h2>One Partner and Five Associates, Specialized in Diverse Areas of Law</h2>
   </div>
   <div class="team-grid">
-    <a href="team.html#seoane" class="team-member reveal">
+    <a href="/en/team#seoane" class="team-member reveal">
       <img src="../sebastian-seoane.png" alt="Sebastian Seoane" />
       <h4>Sebastian Seoane</h4>
       <span>Partner</span>
     </a>
-    <a href="team.html#salomone" class="team-member reveal">
+    <a href="/en/team#salomone" class="team-member reveal">
       <img src="../facundo-salomone.png" alt="Facundo Salomone" />
       <h4>Facundo Salomone</h4>
       <span>Associate</span>
     </a>
-    <a href="team.html#barrio" class="team-member reveal">
+    <a href="/en/team#barrio" class="team-member reveal">
       <img src="../karina-barrio.png" alt="Karina Barrio" />
       <h4>Karina Barrio</h4>
       <span>Associate</span>
     </a>
-    <a href="team.html#cunsolo" class="team-member reveal">
+    <a href="/en/team#cunsolo" class="team-member reveal">
       <img src="../agustin-cunsolo.png" alt="Agustin Cunsolo" />
       <h4>Agustin Cunsolo</h4>
       <span>Associate</span>
     </a>
-    <a href="team.html#novoa" class="team-member reveal">
+    <a href="/en/team#novoa" class="team-member reveal">
       <img src="../santiago-novoa.png" alt="Santiago Novoa" />
       <h4>Santiago Novoa</h4>
       <span>Associate</span>
     </a>
-    <a href="team.html#capello" class="team-member reveal">
+    <a href="/en/team#capello" class="team-member reveal">
       <img src="../ignacio-capello.png" alt="Ignacio Capello" />
       <h4>Ignacio Capello</h4>
       <span>Associate</span>
     </a>
   </div>
   <div class="areas-cta reveal">
-    <a href="team.html" class="btn-ghost">Meet the Team</a>
+    <a href="/en/team" class="btn-ghost">Meet the Team</a>
   </div>
 </section>
 
@@ -178,8 +199,8 @@
   <p class="reveal">Alicia Moreau de Justo 1150, 3rd Floor, Office A306, CP 1107, Buenos Aires</p>
   <p class="office-phone reveal">Tel: 5278 3435 · Fax: 4032 0171</p>
   <div class="btn-group reveal">
-    <a href="office.html" class="btn-solid-white">Get Directions</a>
-    <a href="contact.html" class="btn-ghost-white">Contact Us</a>
+    <a href="/en/office" class="btn-solid-white">Get Directions</a>
+    <a href="/en/contact" class="btn-ghost-white">Contact Us</a>
   </div>
 </section>
 
@@ -188,29 +209,29 @@
   <div class="footer-top">
     <div class="footer-brand">
       <img src="../logo.png" alt="S&amp;S Abogados" />
-      <p class="footer-tagline">Comprehensive legal service, with business vision.</p>
+      <p class="footer-tagline">Comprehensive legal practice.</p>
     </div>
     <div class="footer-col">
       <h5>Navigation</h5>
-      <a href="about-us.html">About Us</a>
-      <a href="team.html">Team</a>
-      <a href="practice-areas.html">Practice Areas</a>
-      <a href="office.html">Office</a>
-      <a href="work-at-sys.html">Work at S&amp;S</a>
+      <a href="/en/about-us">About Us</a>
+      <a href="/en/team">Team</a>
+      <a href="/en/practice-areas">Practice Areas</a>
+      <a href="/en/office">Office</a>
+      <a href="/en/work-at-sys">Work at S&amp;S</a>
     </div>
     <div class="footer-col">
       <h5>Contact</h5>
       <a href="tel:+541152783435">Tel: 5278 3435</a>
-      <a href="contact.html">Contact form</a>
+      <a href="/en/contact">Contact form</a>
       <p>Alicia Moreau de Justo 1150, 3rd Floor,<br>Office A306, CP 1107, Buenos Aires</p>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 S&amp;S Abogados. All rights reserved.</span>
+    <span>© 2026 S&amp;S Abogados. All rights reserved. · <a href="/en/privacy">Privacy Policy</a></span>
     <span class="footer-credit">Developed by <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
   </div>
 </footer>
 
-<script src="../main.js"></script>
+<script src="../main.js?v=20261103i"></script>
 </body>
 </html>

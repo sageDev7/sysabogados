@@ -4,33 +4,44 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="only light">
+  <meta name="robots" content="noindex, nofollow">
   <title>Quiénes Somos — S&amp;S Abogados</title>
   <meta name="description" content="S&S es un estudio jurídico orientado a brindar un servicio jurídico integral, con trato personalizado y los principios de la abogacía preventiva." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="S&amp;S Abogados" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:title" content="Quiénes Somos — S&amp;S Abogados" />
+  <meta property="og:description" content="S&S es un estudio jurídico orientado a brindar un servicio jurídico integral, con trato personalizado y los principios de la abogacía preventiva." />
+  <meta property="og:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="https://i.imgur.com/x0zDgtN.png" />
+  <link rel="stylesheet" href="styles.css?v=20261103i" />
   <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 <body>
 
 <!-- ═══ NAV ═══════════════════════════════════════════════ -->
 <nav class="nav" id="navbar">
-  <a class="nav-logo" href="index.html">
+  <a class="nav-logo" href="/">
     <img src="logo-light.png" class="logo-light" alt="S&amp;S Abogados" />
     <img src="logo.png" class="logo-dark" alt="S&amp;S Abogados" />
   </a>
   <ul class="nav-links">
-    <li><a href="quienes-somos.html" class="active">Quiénes Somos</a></li>
-    <li><a href="equipo.html">Equipo</a></li>
-    <li><a href="areas-de-practica.html">Áreas de Práctica</a></li>
-    <li><a href="oficinas.html">Oficinas</a></li>
-    <li><a href="trabajar-en-sys.html">Trabajar en S&amp;S</a></li>
+    <li><a href="/quienes-somos" class="active">Quiénes Somos</a></li>
+    <li><a href="/equipo">Equipo</a></li>
+    <li><a href="/areas-de-practica">Áreas de Práctica</a></li>
+    <li><a href="/oficinas">Oficinas</a></li>
+    <li><a href="/trabajar-en-sys">Trabajar en S&amp;S</a></li>
   </ul>
   <div class="nav-right">
     <div class="lang-switch">
-      <a href="quienes-somos.html" class="active">ES</a>
+      <a href="/quienes-somos" class="active">ES</a>
       <span>|</span>
-      <a href="en/about-us.html">EN</a>
+      <a href="/en/about-us">EN</a>
     </div>
-    <a href="contacto.html" class="nav-cta">Contacto</a>
+    <a href="/contacto" class="nav-cta">Contacto</a>
   </div>
 </nav>
 <button class="hamburger" onclick="toggleMenu()" aria-label="Menú">
@@ -43,15 +54,15 @@
 <div class="mobile-menu" id="mobileMenu">
   <img src="logo.png" class="mnav-logo" alt="S&amp;S Abogados" />
   <div class="mnav-divider"></div>
-  <a href="quienes-somos.html" onclick="toggleMenu()">Quiénes Somos</a>
-  <a href="equipo.html" onclick="toggleMenu()">Equipo</a>
-  <a href="areas-de-practica.html" onclick="toggleMenu()">Áreas de Práctica</a>
-  <a href="oficinas.html" onclick="toggleMenu()">Oficinas</a>
-  <a href="trabajar-en-sys.html" onclick="toggleMenu()">Trabajar en S&amp;S</a>
+  <a href="/quienes-somos" onclick="toggleMenu()">Quiénes Somos</a>
+  <a href="/equipo" onclick="toggleMenu()">Equipo</a>
+  <a href="/areas-de-practica" onclick="toggleMenu()">Áreas de Práctica</a>
+  <a href="/oficinas" onclick="toggleMenu()">Oficinas</a>
+  <a href="/trabajar-en-sys" onclick="toggleMenu()">Trabajar en S&amp;S</a>
   <div class="mnav-lang">
-    <a href="quienes-somos.html" class="active">ESPAÑOL</a><span>|</span><a href="en/about-us.html">ENGLISH</a>
+    <a href="/quienes-somos" class="active">ESPAÑOL</a><span>|</span><a href="/en/about-us">ENGLISH</a>
   </div>
-  <a href="contacto.html" class="btn-solid">Contacto</a>
+  <a href="/contacto" class="btn-solid">Contacto</a>
 </div>
 
 <!-- ═══ PAGE HERO ═══════════════════════════════════════════ -->
@@ -59,42 +70,28 @@
   <div class="page-hero-bg"></div>
   <div class="page-hero-tint"></div>
   <p class="eyebrow reveal">Quiénes Somos</p>
-  <h1 class="reveal">Servicio jurídico integral, con trato personalizado</h1>
+  <h1 class="reveal">Servicio jurídico integral con trato personalizado</h1>
   <p class="page-hero-sub reveal">Profesionales altamente capacitados en diversas ramas del Derecho, comprometidos con cada cliente.</p>
 </section>
 
 <!-- ═══ TEXTO INSTITUCIONAL ═════════════════════════════════ -->
-<section class="page-text">
+<section class="page-text page-text-roomy">
   <div class="page-text-inner reveal">
-    <p class="lead">S&amp;S es un estudio jurídico orientado a brindar un servicio jurídico integral.</p>
-    <p class="lead">Para ello cuenta con profesionales altamente capacitados en diversas ramas del Derecho, manteniendo el trato personalizado y aplicando los principios de la abogacía preventiva con el objetivo de lograr soluciones conciliadoras por sobre el litigio.</p>
-    <p class="lead">Los valores por los cuales se rige el estudio son la honestidad, el compromiso con cada cliente, la pasión por lo que se hace, visión de negocios y ante todo el respeto mutuo.</p>
-  </div>
-</section>
-
-<!-- ═══ VALORES ═════════════════════════════════════════════ -->
-<section class="values">
-  <div class="values-grid">
-    <div class="value-item reveal">
-      <span class="value-num">01</span>
-      <h3>Honestidad</h3>
-    </div>
-    <div class="value-item reveal">
-      <span class="value-num">02</span>
-      <h3>Compromiso</h3>
-    </div>
-    <div class="value-item reveal">
-      <span class="value-num">03</span>
-      <h3>Pasión</h3>
-    </div>
-    <div class="value-item reveal">
-      <span class="value-num">04</span>
-      <h3>Visión de Negocios</h3>
-    </div>
-    <div class="value-item reveal">
-      <span class="value-num">05</span>
-      <h3>Respeto Mutuo</h3>
-    </div>
+    <p class="lead">S&amp;S Abogados es un estudio jurídico comprometido con brindar un servicio legal integral, moderno y personalizado. Entendemos que cada conflicto o proyecto requiere una mirada única; por eso, combinamos una sólida formación técnica en las diversas ramas del Derecho con un enfoque dinámico y orientado en los resultados.</p>
+    <h3>Nuestro enfoque y propuesta de valor</h3>
+    <ol class="detail-list">
+      <li><strong>Trato Personalizado y Cercano:</strong> No creemos en soluciones estandarizadas. Mantenemos una comunicación fluida y transparente con cada cliente, asegurando que comprenda cada etapa de su proceso y se sienta respaldado en todo momento.</li>
+      <li><strong>Visión Estratégica:</strong> Acompañamos tanto a personas particulares como a empresas y emprendimientos. Comprendemos el entorno económico y operativo de nuestros clientes, lo que nos permite ofrecer herramientas legales alineadas con sus objetivos concretos.</li>
+      <li><strong>Excelencia Profesional:</strong> Contamos con un equipo de profesionales en constante capacitación y actualización en las distintas disciplinas del Derecho, adaptándonos a los cambios legislativos y a los nuevos desafíos del contexto actual.</li>
+    </ol>
+    <h3>Nuestros Valores</h3>
+    <p class="lead">Nuestra práctica profesional se fundamenta en pilares éticos inquebrantables que guían nuestro trabajo diario:</p>
+    <ol class="detail-list">
+      <li><strong>Honestidad y Transparencia:</strong> Brindamos diagnósticos realistas sobre cada caso, hablando siempre con la verdad respecto a las posibilidades, riesgos y costos involucrados.</li>
+      <li><strong>Compromiso:</strong> Asumimos cada desafío como propio, dedicando el máximo rigor técnico y esfuerzo para proteger los intereses de quienes confían en nosotros.</li>
+      <li><strong>Pasión por la Abogacía:</strong> Nos motiva el ejercicio del Derecho y la búsqueda constante de la justicia y la equidad en cada solución que construimos.</li>
+      <li><strong>Respeto Mutuo:</strong> Promovemos relaciones basadas en la confianza, el diálogo y la consideración recíproca con nuestros clientes, colegas y contrapartes.</li>
+    </ol>
   </div>
 </section>
 
@@ -105,8 +102,8 @@
   <h2 class="reveal">Conocé a las personas detrás de S&amp;S</h2>
   <p class="reveal">Un socio y cinco asociados, especializados en distintas áreas del derecho.</p>
   <div class="btn-group reveal">
-    <a href="equipo.html" class="btn-solid-white">Conocer al Equipo</a>
-    <a href="contacto.html" class="btn-ghost-white">Contactanos</a>
+    <a href="/equipo" class="btn-solid-white">Conocer al Equipo</a>
+    <a href="/contacto" class="btn-ghost-white">Contactanos</a>
   </div>
 </section>
 
@@ -115,29 +112,29 @@
   <div class="footer-top">
     <div class="footer-brand">
       <img src="logo.png" alt="S&amp;S Abogados" />
-      <p class="footer-tagline">Servicio jurídico integral, con visión de negocios.</p>
+      <p class="footer-tagline">Estudio jurídico integral.</p>
     </div>
     <div class="footer-col">
       <h5>Navegación</h5>
-      <a href="quienes-somos.html">Quiénes Somos</a>
-      <a href="equipo.html">Equipo</a>
-      <a href="areas-de-practica.html">Áreas de Práctica</a>
-      <a href="oficinas.html">Oficinas</a>
-      <a href="trabajar-en-sys.html">Trabajar en S&amp;S</a>
+      <a href="/quienes-somos">Quiénes Somos</a>
+      <a href="/equipo">Equipo</a>
+      <a href="/areas-de-practica">Áreas de Práctica</a>
+      <a href="/oficinas">Oficinas</a>
+      <a href="/trabajar-en-sys">Trabajar en S&amp;S</a>
     </div>
     <div class="footer-col">
       <h5>Contacto</h5>
       <a href="tel:+541152783435">Tel: 5278-3435</a>
-      <a href="contacto.html">Formulario de contacto</a>
+      <a href="/contacto">Formulario de contacto</a>
       <p>Av. Alicia Moreau de Justo 1150, Piso 3,<br>Oficina A306, CP 1107, CABA</p>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados.</span>
+    <span>© 2026 S&amp;S Abogados. Todos los derechos reservados. · <a href="/privacidad">Política de privacidad</a></span>
     <span class="footer-credit">Desarrollado por <a href="https://instagram.com/sageedev" target="_blank">@sageeDev</a></span>
   </div>
 </footer>
 
-<script src="main.js"></script>
+<script src="main.js?v=20261103i"></script>
 </body>
 </html>
